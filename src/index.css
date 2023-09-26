@@ -8,7 +8,6 @@ body {
 }
 
 .App {
-  
   background-image: linear-gradient(rgb(0, 47, 255), rgb(77, 154, 255));
 }
 
@@ -24,6 +23,7 @@ code {
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
+
 .width-four {
   grid-column: span 4;
 }
@@ -50,9 +50,9 @@ code {
   padding: 10px;
   word-wrap: break-word;
   word-break: break-all;
-  margin-bottom: -150px;
-  width: 400px;
-  height: 150px;
+  margin-bottom: -2rem;
+  width: 50rem;
+  height: 10rem;
 }
 .out1 {
   font-size: 1.5rem;
